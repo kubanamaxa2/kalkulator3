@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,34 +24,34 @@ class MainActivity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
         findViewById<Button>(R.id.btn1).setOnClickListener{
-            findViewById<Button>(R.id.wyniktext).text = "1"
+            findViewById<TextView>(R.id.wyniktext).text = "1"
         }
         findViewById<Button>(R.id.btn2).setOnClickListener{
-            findViewById<Button>(R.id.wyniktext).text = "2"
+            findViewById<TextView>(R.id.wyniktext).text = "2"
         }
         findViewById<Button>(R.id.btn3).setOnClickListener{
-            findViewById<Button>(R.id.wyniktext).text = "3"
+            findViewById<TextView>(R.id.wyniktext).text = "3"
         }
         findViewById<Button>(R.id.btn4).setOnClickListener{
-            findViewById<Button>(R.id.wyniktext).text = "4"
+            findViewById<TextView>(R.id.wyniktext).text = "4"
         }
         findViewById<Button>(R.id.btn5).setOnClickListener{
-            findViewById<Button>(R.id.wyniktext).text = "5"
+            findViewById<TextView>(R.id.wyniktext).text = "5"
         }
         findViewById<Button>(R.id.btn6).setOnClickListener{
-            findViewById<Button>(R.id.wyniktext).text = "6"
+            findViewById<TextView>(R.id.wyniktext).text = "6"
         }
         findViewById<Button>(R.id.btn7).setOnClickListener{
-            findViewById<Button>(R.id.wyniktext).text = "7"
+            findViewById<TextView>(R.id.wyniktext).text = "7"
         }
         findViewById<Button>(R.id.btn8).setOnClickListener{
-            findViewById<Button>(R.id.wyniktext).text = "8"
+            findViewById<TextView>(R.id.wyniktext).text = "8"
         }
         findViewById<Button>(R.id.btn9).setOnClickListener{
-            findViewById<Button>(R.id.wyniktext).text = "9"
+            findViewById<TextView>(R.id.wyniktext).text = "9"
         }
         findViewById<Button>(R.id.btn10).setOnClickListener{
-            findViewById<Button>(R.id.wyniktext).text = "0"
+            findViewById<TextView>(R.id.wyniktext).text = "0"
         }
     }
 
