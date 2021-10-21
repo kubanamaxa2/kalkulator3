@@ -89,14 +89,17 @@ class MainActivity : AppCompatActivity() {
             dzialanie = 4
         }
         findViewById<Button>(R.id.btn15).setOnClickListener {
-            LiczbaPierwsza = findViewById<TextView>(R.id.wyniktext).text.toString().toInt()
+            LiczbaDruga = findViewById<TextView>(R.id.wyniktext).text.toString().toInt()
             if (dzialanie == 1) {
                 wynik = LiczbaPierwsza + LiczbaDruga
-            } else if (dzialanie == 2) {
+            }
+            else if (dzialanie == 2) {
                 wynik = LiczbaPierwsza - LiczbaDruga
-            } else if (dzialanie == 3) {
+            }
+            else if (dzialanie == 3) {
                 wynik = LiczbaPierwsza * LiczbaDruga
-            } else if (dzialanie == 4) {
+            }
+            else if (dzialanie == 4) {
                 wynik = LiczbaPierwsza / LiczbaDruga
             }
             findViewById<TextView>(R.id.wyniktext).text = wynik.toString()
